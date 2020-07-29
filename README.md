@@ -49,17 +49,18 @@ $vim hello.c
 //add the following lines to it, then save and quit
 
 > include <stdio.h>
-void main()
 
-{
+> void main()
 
-   int a = 3, b = 3;
+>{
 
-   a = a + b;
+>   int a = 3, b = 3;
 
-   printf("%d\r\n", a);
+>   a = a + b;
 
-}
+>   printf("%d\r\n", a);
+
+>}
 
 ## 2. Build hello.c using riscv_cc
 
